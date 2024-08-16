@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .landing-page {
     display: flex;
     flex-direction: column;
@@ -13,12 +17,14 @@
     display: flex;
     justify-content: space-between;
     margin: 0px 20px;
+    padding: 20px
 
 }
 
 .section-one .header .logo {
     color:#f9faf8;
     font-size: 24px;
+    font-weight: 900;
 }
 
 .section-one .header ul {
@@ -105,4 +111,85 @@ ul {
     height: auto;
     width: 100px;
     text-align: center;
+    color: #1f2937;
 }
+
+.section-three {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    padding: 100px 200px;
+}
+
+.section-three .body {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-three .body .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+
+}
+
+.section-three .body .speaker {
+    text-align:end;
+    font-weight: 900;
+    font-size: 24px;
+    color: #1f2937
+}
+
+.section-four{
+    display: flex;
+    justify-content: center;
+}
+
+.section-four .body {
+    display: flex;
+    padding: 50px 100px;
+    margin: 100px 200px;
+    background-color: #3882f6;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.section-four .body .left-text {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    gap: 5px;
+}
+
+.section-four .body .left-text .header {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.section-four .body .left-text .text {
+    font-size: 18px;
+}
+
+.section-four button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    font-weight: 900;
+    flex-shrink: 0;
+
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.footer .text {
+    text-align: center;
+    padding: 20px;
+}
+
